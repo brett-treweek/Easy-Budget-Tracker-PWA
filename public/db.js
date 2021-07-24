@@ -53,7 +53,7 @@ request.onsuccess = function (e) {
 };
 
 const saveRecord = (record) => {
-  console.log("Saving record");
+  console.log("Saving record to indexedDB");
   const transaction = db.transaction(["BudgetStore"], 'readwrite');
   const store = transaction.objectStore('BudgetStore');
 
