@@ -3,7 +3,7 @@ Budget tracking app that allows for offline access and functionality.
 
 ![Homepage of app](./public/icons/budgetTracker.PNG)
 
-[Here is a link to the deployed App on Heroku]()
+[Here is a link to the deployed App on Heroku](https://easy-budget-tracker.herokuapp.com/)
 
 [Here is a link to the gitHub repo](https://github.com/brett-treweek/Easy-Budget-Tracker-PWA)  
 
@@ -34,7 +34,7 @@ install node.js
 install mongoDB
 clone the repo from gitHub
 npm install
-npm run seed
+create environment variables (.env)
 ```
 
 ---
@@ -42,18 +42,18 @@ npm run seed
 
 The best way to try the app is on heroku.  
 
-[Follow this link to easily use the app on Heroku.]()
+[Follow this link to easily use the app on Heroku.](https://easy-budget-tracker.herokuapp.com/)
 
-Run the app locally with the following command.   
+- Run the app locally with the following command.   
 
 ```bash
 npm start
 ```
-Then open your browser and navigate to:
+- Then open your browser and navigate to:
 ```bash
 localhost:3000
 ```
-
+- App can then be installed locally via browser options.
 
 ---
 ## License
